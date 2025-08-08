@@ -1,2 +1,65 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #004080;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Heading */
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Image */
+img {
+  max-width: 200px;
+  border: 2px dotted #333;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Responsive list styling */
+ul[role="list"] {
+  padding-left: 20px;
+}
+
+li[role="listitem"] {
+  margin-bottom: 5px;
+}
